@@ -1,0 +1,347 @@
+{
+  "files_total": 31,
+  "python_files": [
+    "test.py",
+    "sendmes.py",
+    "project_audit.py",
+    "pay_yoo.py",
+    "time_mes.py",
+    "bot.py",
+    "X3.py",
+    "keyboards/set_menu.py",
+    "keyboards/inline/keyboard.py",
+    "keyboards/inline/__init__.py",
+    "config_data/config.py",
+    "handlers/admin_handlers.py",
+    "handlers/other_handlers.py",
+    "lexicon/lexicon.py",
+    "nps/nps.py",
+    "filters/filters.py",
+    "config_bd/BaseModel.py",
+    "config_bd/users.py"
+  ],
+  "conf_files": [
+    ".env",
+    "requirements.txt"
+  ],
+  "import_graph": {
+    "test.py": {
+      "imports": []
+    },
+    "sendmes.py": {
+      "imports": [
+        "X3",
+        "aiogram",
+        "config_data",
+        "keyboards",
+        "lexicon"
+      ]
+    },
+    "project_audit.py": {
+      "imports": [
+        "__future__",
+        "argparse",
+        "ast",
+        "collections",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "sys",
+        "typing"
+      ]
+    },
+    "pay_yoo.py": {
+      "imports": [
+        "asyncio",
+        "config_data",
+        "uuid",
+        "yookassa"
+      ]
+    },
+    "time_mes.py": {
+      "imports": [
+        "X3",
+        "aiogram",
+        "config_bd",
+        "keyboards",
+        "lexicon"
+      ]
+    },
+    "bot.py": {
+      "imports": [
+        "aiogram",
+        "aioschedule",
+        "apscheduler",
+        "asyncio",
+        "config_data",
+        "datetime",
+        "handlers",
+        "keyboards",
+        "logging",
+        "time_mes"
+      ]
+    },
+    "X3.py": {
+      "imports": [
+        "config_data",
+        "datetime",
+        "json",
+        "requests",
+        "uuid"
+      ]
+    },
+    "keyboards/set_menu.py": {
+      "imports": [
+        "aiogram",
+        "lexicon"
+      ]
+    },
+    "keyboards/inline/keyboard.py": {
+      "imports": [
+        "aiogram",
+        "lexicon"
+      ]
+    },
+    "keyboards/inline/__init__.py": {
+      "imports": []
+    },
+    "config_data/config.py": {
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "environs"
+      ]
+    },
+    "handlers/admin_handlers.py": {
+      "imports": [
+        "aiogram",
+        "config_data",
+        "keyboards",
+        "lexicon",
+        "nps",
+        "sendmes"
+      ]
+    },
+    "handlers/other_handlers.py": {
+      "imports": [
+        "X3",
+        "aiogram",
+        "asyncio",
+        "config_bd",
+        "config_data",
+        "keyboards",
+        "lexicon",
+        "os",
+        "pay_yoo",
+        "sqlite3",
+        "time",
+        "yookassa"
+      ]
+    },
+    "lexicon/lexicon.py": {
+      "imports": [
+        "X3"
+      ]
+    },
+    "nps/nps.py": {
+      "imports": [
+        "json"
+      ]
+    },
+    "filters/filters.py": {
+      "imports": [
+        "aiogram",
+        "config_bd"
+      ]
+    },
+    "config_bd/BaseModel.py": {
+      "imports": [
+        "config_data",
+        "datetime",
+        "sqlalchemy"
+      ]
+    },
+    "config_bd/users.py": {
+      "imports": [
+        "config_bd",
+        "sqlalchemy"
+      ]
+    }
+  },
+  "frameworks": [
+    "aiogram",
+    "sqlalchemy",
+    "yookassa"
+  ],
+  "all_imports": [
+    "X3",
+    "__future__",
+    "aiogram",
+    "aioschedule",
+    "apscheduler",
+    "argparse",
+    "ast",
+    "asyncio",
+    "collections",
+    "config_bd",
+    "config_data",
+    "dataclasses",
+    "datetime",
+    "environs",
+    "handlers",
+    "json",
+    "keyboards",
+    "lexicon",
+    "logging",
+    "nps",
+    "os",
+    "pathlib",
+    "pay_yoo",
+    "re",
+    "requests",
+    "sendmes",
+    "sqlalchemy",
+    "sqlite3",
+    "sys",
+    "time",
+    "time_mes",
+    "typing",
+    "uuid",
+    "yookassa"
+  ],
+  "aiogram_map": {
+    "test.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "sendmes.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "project_audit.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "pay_yoo.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "time_mes.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "bot.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "X3.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "keyboards/set_menu.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "keyboards/inline/keyboard.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "keyboards/inline/__init__.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "config_data/config.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "handlers/admin_handlers.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "handlers/other_handlers.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "lexicon/lexicon.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "nps/nps.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "filters/filters.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "config_bd/BaseModel.py": {
+      "routers": {},
+      "handlers": []
+    },
+    "config_bd/users.py": {
+      "routers": {},
+      "handlers": []
+    }
+  },
+  "states_index": {
+    "handlers/admin_handlers.py": [
+      {
+        "class": "Sendmess",
+        "lineno": 24,
+        "states": [
+          "mess",
+          "mkup"
+        ]
+      }
+    ],
+    "handlers/other_handlers.py": [
+      {
+        "class": "Present",
+        "lineno": 89,
+        "states": [
+          "name"
+        ]
+      },
+      {
+        "class": "sendm",
+        "lineno": 93,
+        "states": [
+          "sendm"
+        ]
+      }
+    ]
+  },
+  "urls_index": {
+    "test.py": [
+      "https://play.google.com/store/apps/details?id=com.v2raytun.android",
+      "https://telegra.ph/Nastrojka-BARS-VPN-na-andriod-06-26"
+    ],
+    "pay_yoo.py": [
+      "https://t.me/VPNAvocado_bot"
+    ],
+    "time_mes.py": [
+      "https://t.me/Barsvpnadmin"
+    ],
+    "X3.py": [
+      "http://{serv[2]}"
+    ],
+    "handlers/other_handlers.py": [
+      "https://apps.apple.com/ru/app/v2raytun/id6476628951",
+      "https://drive.google.com/file/d/1Eu7Eo6W0CdTF5dUvO608QqQClYTVu2fj/view?usp=sharing",
+      "https://play.google.com/store/apps/details?id=com.v2raytun.android",
+      "https://t.me/Barsvpnadmin",
+      "https://telegra.ph/Nastrojka-BARS-VPN-na-andriod-06-26",
+      "https://telegra.ph/Nastrojka-BARS-VPN-na-iPhone-12-12",
+      "https://telegra.ph/Nastrojka-BARS-VPN-na-windows-12-27"
+    ],
+    "lexicon/lexicon.py": [
+      "https://t.me/BARS_VPN_bot?start={1}</blockquote></code>\\n\\n",
+      "https://t.me/BARS_VPN_bot?start={1}</blockquote></code>\\n\\n\\n"
+    ]
+  },
+  "requirements_text": "# requirements.txt\na\u0000i\u0000o\u0000f\u0000i\u0000l\u0000e\u0000s\u0000=\u0000=\u00002\u00002\u0000.\u00001\u0000.\u00000\u0000\n\u0000\n\u0000a\u0000i\u0000o\u0000g\u0000r\u0000a\u0000m\u0000=\u0000=\u00003\u0000.\u00000\u0000.\u00000\u0000b\u00006\u0000\n\u0000\n\u0000a\u0000i\u0000o\u0000h\u0000t\u0000t\u0000p\u0000=\u0000=\u00003\u0000.\u00008\u0000.\u00005\u0000\n\u0000\n\u0000a\u0000i\u0000o\u0000s\u0000c\u0000h\u0000e\u0000d\u0000u\u0000l\u0000e\u0000=\u0000=\u00000\u0000.\u00005\u0000.\u00002\u0000\n\u0000\n\u0000a\u0000i\u0000o\u0000s\u0000i\u0000g\u0000n\u0000a\u0000l\u0000=\u0000=\u00001\u0000.\u00003\u0000.\u00001\u0000\n\u0000\n\u0000a\u0000n\u0000n\u0000o\u0000t\u0000a\u0000t\u0000e\u0000d\u0000-\u0000t\u0000y\u0000p\u0000e\u0000s\u0000=\u0000=\u00000\u0000.\u00005\u0000.\u00000\u0000\n\u0000\n\u0000A\u0000P\u0000S\u0000c\u0000h\u0000e\u0000d\u0000u\u0000l\u0000e\u0000r\u0000=\u0000=\u00003\u0000.\u00001\u00000\u0000.\u00004\u0000\n\u0000\n\u0000a\u0000s\u0000y\u0000n\u0000c\u0000-\u0000t\u0000i\u0000m\u0000e\u0000o\u0000u\u0000t\u0000=\u0000=\u00004\u0000.\u00000\u0000.\u00003\u0000\n\u0000\n\u0000a\u0000t\u0000t\u0000r\u0000s\u0000=\u0000=\u00002\u00003\u0000.\u00001\u0000.\u00000\u0000\n\u0000\n\u0000c\u0000e\u0000r\u0000t\u0000i\u0000f\u0000i\u0000=\u0000=\u00002\u00000\u00002\u00002\u0000.\u00001\u00002\u0000.\u00007\u0000\n\u0000\n\u0000c\u0000h\u0000a\u0000r\u0000s\u0000e\u0000t\u0000-\u0000n\u0000o\u0000r\u0000m\u0000a\u0000l\u0000i\u0000z\u0000e\u0000r\u0000=\u0000=\u00003\u0000.\u00002\u0000.\u00000\u0000\n\u0000\n\u0000D\u0000e\u0000p\u0000r\u0000e\u0000c\u0000a\u0000t\u0000e\u0000d\u0000=\u0000=\u00001\u0000.\u00002\u0000.\u00001\u00004\u0000\n\u0000\n\u0000d\u0000i\u0000s\u0000t\u0000r\u0000o\u0000=\u0000=\u00001\u0000.\u00008\u0000.\u00000\u0000\n\u0000\n\u0000e\u0000n\u0000v\u0000i\u0000r\u0000o\u0000n\u0000s\u0000=\u0000=\u00009\u0000.\u00005\u0000.\u00000\u0000\n\u0000\n\u0000f\u0000r\u0000e\u0000e\u0000k\u0000a\u0000s\u0000s\u0000a\u0000=\u0000=\u00000\u0000.\u00001\u0000.\u00004\u0000\n\u0000\n\u0000f\u0000r\u0000o\u0000z\u0000e\u0000n\u0000l\u0000i\u0000s\u0000t\u0000=\u0000=\u00001\u0000.\u00004\u0000.\u00000\u0000\n\u0000\n\u0000g\u0000r\u0000e\u0000e\u0000n\u0000l\u0000e\u0000t\u0000=\u0000=\u00003\u0000.\u00000\u0000.\u00003\u0000\n\u0000\n\u0000i\u0000d\u0000n\u0000a\u0000=\u0000=\u00003\u0000.\u00004\u0000\n\u0000\n\u0000m\u0000a\u0000g\u0000i\u0000c\u0000-\u0000f\u0000i\u0000l\u0000t\u0000e\u0000r\u0000=\u0000=\u00001\u0000.\u00000\u0000.\u00001\u00001\u0000\n\u0000\n\u0000m\u0000a\u0000r\u0000s\u0000h\u0000m\u0000a\u0000l\u0000l\u0000o\u0000w\u0000=\u0000=\u00003\u0000.\u00002\u00000\u0000.\u00001\u0000\n\u0000\n\u0000m\u0000u\u0000l\u0000t\u0000i\u0000d\u0000i\u0000c\u0000t\u0000=\u0000=\u00006\u0000.\u00000\u0000.\u00004\u0000\n\u0000\n\u0000n\u0000e\u0000t\u0000a\u0000d\u0000d\u0000r\u0000=\u0000=\u00000\u0000.\u00008\u0000.\u00000\u0000\n\u0000\n\u0000p\u0000a\u0000c\u0000k\u0000a\u0000g\u0000i\u0000n\u0000g\u0000=\u0000=\u00002\u00003\u0000.\u00001\u0000\n\u0000\n\u0000p\u0000y\u0000d\u0000a\u0000n\u0000t\u0000i\u0000c\u0000=\u0000=\u00001\u0000.\u00001\u00000\u0000.\u00001\u00002\u0000\n\u0000\n\u0000p\u0000y\u0000d\u0000a\u0000n\u0000t\u0000i\u0000c\u0000_\u0000c\u0000o\u0000r\u0000e\u0000=\u0000=\u00002\u0000.\u00006\u0000.\u00003\u0000\n\u0000\n\u0000p\u0000y\u0000T\u0000e\u0000l\u0000e\u0000g\u0000r\u0000a\u0000m\u0000B\u0000o\u0000t\u0000A\u0000P\u0000I\u0000=\u0000=\u00004\u0000.\u00001\u00003\u0000.\u00000\u0000\n\u0000\n\u0000p\u0000y\u0000t\u0000h\u0000o\u0000n\u0000-\u0000d\u0000o\u0000t\u0000e\u0000n\u0000v\u0000=\u0000=\u00001\u0000.\u00000\u0000.\u00000\u0000\n\u0000\n\u0000p\u0000y\u0000t\u0000z\u0000=\u0000=\u00002\u00000\u00002\u00003\u0000.\u00003\u0000.\u0000p\u0000o\u0000s\u0000t\u00001\u0000\n\u0000\n\u0000r\u0000e\u0000q\u0000u\u0000e\u0000s\u0000t\u0000s\u0000=\u0000=\u00002\u0000.\u00003\u00001\u0000.\u00000\u0000\n\u0000\n\u0000s\u0000i\u0000x\u0000=\u0000=\u00001\u0000.\u00001\u00006\u0000.\u00000\u0000\n\u0000\n\u0000S\u0000Q\u0000L\u0000A\u0000l\u0000c\u0000h\u0000e\u0000m\u0000y\u0000=\u0000=\u00002\u0000.\u00000\u0000.\u00002\u00000\u0000\n\u0000\n\u0000t\u0000e\u0000l\u0000e\u0000b\u0000o\u0000t\u0000=\u0000=\u00000\u0000.\u00000\u0000.\u00005\u0000\n\u0000\n\u0000t\u0000y\u0000p\u0000i\u0000n\u0000g\u0000_\u0000e\u0000x\u0000t\u0000e\u0000n\u0000s\u0000i\u0000o\u0000n\u0000s\u0000=\u0000=\u00004\u0000.\u00007\u0000.\u00001\u0000\n\u0000\n\u0000t\u0000z\u0000d\u0000a\u0000t\u0000a\u0000=\u0000=\u00002\u00000\u00002\u00004\u0000.\u00001\u0000\n\u0000\n\u0000t\u0000z\u0000l\u0000o\u0000c\u0000a\u0000l\u0000=\u0000=\u00005\u0000.\u00000\u0000.\u00001\u0000\n\u0000\n\u0000u\u0000r\u0000l\u0000l\u0000i\u0000b\u00003\u0000=\u0000=\u00002\u0000.\u00000\u0000.\u00004\u0000\n\u0000\n\u0000w\u0000r\u0000a\u0000p\u0000t\u0000=\u0000=\u00001\u0000.\u00001\u00005\u0000.\u00000\u0000\n\u0000\n\u0000y\u0000a\u0000r\u0000l\u0000=\u0000=\u00001\u0000.\u00009\u0000.\u00002\u0000\n\u0000\n\u0000y\u0000o\u0000o\u0000k\u0000a\u0000s\u0000s\u0000a\u0000=\u0000=\u00002\u0000.\u00004\u0000.\u00000\u0000\n\u0000\n\u0000",
+  "pyproject_text": "",
+  "env_text": "# .env\nBOTV_TOKEN=7612319182:AAF9QW1MAlPex6HbAPwBYFkdnT3_GOuRI1w\nADMIN_IDS=143454788\nSERV=bazai,Yecgaa9807@@,77.110.120.244:8433\nYOUKASSA=1079074,live_jdJP04Ph9uH7UiPzDWeKUdtiAbnwmzJLjNdXfkiYvrc",
+  "errors": []
+}

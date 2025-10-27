@@ -1,0 +1,9 @@
+2025-10-25 20:36:37,340 - asyncio - DEBUG - Using selector: EpollSelector
+2025-10-25 20:36:37,340 - __main__ - INFO - Starting BOTV
+2025-10-25 20:36:37,469 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-25 20:36:37,471 - apscheduler.scheduler - INFO - Added job "send_message_cron" to job store "default"
+2025-10-25 20:36:37,471 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-25 20:36:37,473 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-10-25 20:36:37,473 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2025-10-26 15:33:00+03:00 (in 57382.526279 seconds)
+2025-10-25 20:36:37,691 - aiogram.dispatcher - INFO - Start polling
+2025-10-25 20:36:37,733 - aiogram.dispatcher - INFO - Run polling for bot @VPNAvocado_bot id=7612319182 - 'Avocado VPN'
